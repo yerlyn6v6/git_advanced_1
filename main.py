@@ -20,6 +20,8 @@ Open-Source Software Practice 3
  Returns:
  The sum of the squares of all even numbers in the list.
  """
+    sum_of_even_squares = sum(num**2 for num in even_int_list)
+    return sum_of_even_squares
  # TODO: Implement sum_of_squares_of_even
  pass
 # Main function
